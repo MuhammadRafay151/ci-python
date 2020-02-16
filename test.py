@@ -13,7 +13,7 @@ class SimpleTest(unittest.TestCase):
         c1=calculator()
 
         x=c1.Add(3,4)
-        self.assertEqual(x,7)
+        self.assertEqual(x,6)
 
 
 if __name__ == '__main__':
