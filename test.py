@@ -12,7 +12,7 @@ class SimpleTest(unittest.TestCase):
     def test2(self):
         c1=calculator()
 
-        x=c1.Add(3,4)
+        x=c1.Add(3,3)
         self.assertEqual(x,6)
 
 
